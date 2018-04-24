@@ -20,7 +20,7 @@
   Color should be set differently for each polygon.
   ====================*/
 void scanline_convert( struct matrix *points, int i, screen s, zbuffer zb ) {
-
+  s = rand() % 100;
 }
 
 /*======== void add_polygon() ==========
